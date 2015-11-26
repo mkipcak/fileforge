@@ -1,0 +1,21 @@
+project(':core'){
+}
+project(':app'){
+}
+
+
+apply plugin: 'idea'
+
+subprojects{
+  apply plugin: 'java'
+  apply plugin: 'idea'
+
+  repositories {
+    mavenCentral()
+  }
+}
+
+allprojects{
+
+
+}
